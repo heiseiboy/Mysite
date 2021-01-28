@@ -1,6 +1,10 @@
 @import "./topMenu.scss";
 @import "./skill.scss";
 
+body {
+  margin: 0;
+}
+
 .container {
   width: 100%;
   height: 100vh;
