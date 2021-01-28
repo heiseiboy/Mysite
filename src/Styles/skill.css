@@ -1,0 +1,30 @@
+#bg4 {
+  background-color: #d1ccc0;
+}
+
+.skills {
+  font-size: 80px;
+}
+
+.content {
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.fas {
+  margin: 50px;
+  font-size: 45px;
+}
+
+.fas:hover {
+  border-bottom: 3px solid #ff5e57;
+  opacity: 0.8;
+}
+
+.under-line {
+  border-bottom: 5px solid #ff5e57;
+}
+/*# sourceMappingURL=skill.css.map */
