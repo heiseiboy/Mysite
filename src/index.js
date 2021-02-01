@@ -9,10 +9,10 @@ import Skills from "./Components/Skills";
 
 ReactDOM.render(
   <React.StrictMode>
-    <TopMenu />
-    <Home />
     <About />
     <Skills />
+    {/* <TopMenu /> */}
+    <Home />
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -3,28 +3,92 @@
 }
 
 .skills {
-  font-size: 80px;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-family: "Bradley Hand", sans-serif;
 }
 
-.content {
-  position: relative;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+ul {
+  list-style: none;
+}
+
+u {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ff5e57;
+          text-decoration-color: #ff5e57;
+  opacity: 0.7;
+}
+
+#border {
+  border-bottom: 2px solid #ff5e57;
+}
+
+.info {
+  text-align: center;
+  font-family: "Arial Rounded MT Bold", sans-serif;
+  font-size: 50px;
+  margin-top: 10%;
 }
 
 .fas {
-  margin: 50px;
-  font-size: 45px;
+  font-size: 60px;
 }
 
-.fas:hover {
-  border-bottom: 3px solid #ff5e57;
-  opacity: 0.8;
+#fas1 {
+  margin-top: 15%;
+  margin-bottom: 5%;
 }
 
-.under-line {
-  border-bottom: 5px solid #ff5e57;
+#fas2 {
+  margin-bottom: 5%;
+}
+
+.lang {
+  margin-top: 10%;
+}
+
+#lang1 {
+  margin-top: 0;
+}
+
+.compiler {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 50px;
+  font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+#compiler1 {
+  margin-bottom: 5%;
+}
+
+.next {
+  text-align: left;
+  margin-top: 10%;
+  font-size: 50px;
+  font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+#next1 {
+  margin-bottom: 5%;
+}
+
+#next2 {
+  margin-bottom: 5%;
+}
+
+#next-study {
+  margin-top: 25%;
+}
+
+#ns1 {
+  margin-bottom: 5%;
+}
+
+#ns2 {
+  margin-bottom: 5%;
 }
 /*# sourceMappingURL=skill.css.map */

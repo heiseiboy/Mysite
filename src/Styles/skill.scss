@@ -1,25 +1,89 @@
 #bg4 {
   background-color: #d1ccc0;
 }
+
 .skills {
-  font-size: 80px;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-family: "Bradley Hand", sans-serif;
 }
 
-.content {
-  position: relative;
-  flex-direction: row;
+ul {
+  list-style: none;
+}
+
+u {
+  text-decoration: underline;
+  text-decoration-color: #ff5e57;
+  opacity: 0.7;
+}
+
+#border {
+  border-bottom: 2px solid #ff5e57;
+}
+
+.info {
+  text-align: center;
+  font-family: "Arial Rounded MT Bold", sans-serif;
+  font-size: 50px;
+  margin-top: 10%;
 }
 
 .fas {
-  margin: 50px;
-  font-size: 45px;
-
-  &:hover {
-    border-bottom: 3px solid #ff5e57;
-    opacity: 0.8;
-  }
+  font-size: 60px;
 }
 
-.under-line {
-  border-bottom: 5px solid #ff5e57;
+#fas1 {
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+#fas2 {
+  margin-bottom: 5%;
+}
+
+.lang {
+  margin-top: 10%;
+}
+
+#lang1 {
+  margin-top: 0;
+}
+
+.compiler {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 50px;
+  font-family: "Arial Rounded MT Bold", sans-serif;
+}
+#compiler1 {
+  margin-bottom: 5%;
+}
+
+.next {
+  text-align: left;
+  margin-top: 10%;
+  font-size: 50px;
+  font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+#next1 {
+  margin-bottom: 5%;
+}
+#next2 {
+  margin-bottom: 5%;
+}
+
+#next-study {
+  margin-top: 25%;
+}
+
+#ns1 {
+  margin-bottom: 5%;
+}
+#ns2 {
+  margin-bottom: 5%;
 }
