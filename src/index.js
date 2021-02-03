@@ -2,10 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
 import "./Styles/style.css";
-import TopMenu from "./Components/TopMenu";
+// import TopMenu from "./Components/TopMenu";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
+// import SideMenu from "./Components/SideMenu";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.render(
     <Skills />
     {/* <TopMenu /> */}
     <Home />
+    {/* <SideMenu /> */}
   </React.StrictMode>,
   document.getElementById("root")
 );

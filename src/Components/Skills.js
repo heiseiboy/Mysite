@@ -6,7 +6,6 @@ import {
   faReact,
   faCss3Alt,
 } from "@fortawesome/free-brands-svg-icons";
-import { fas } from "@fortawesome/free-solid-svg-icons";
 import Grid from "@material-ui/core/Grid";
 
 function Skills() {
@@ -20,7 +19,7 @@ function Skills() {
   // });
   return (
     <div className="container" id="bg4">
-      <Grid container spacing={3}>
+      <Grid container>
         <Grid item xs={12}>
           <p className="skills">Skills</p>
         </Grid>
@@ -33,12 +32,14 @@ function Skills() {
             <ul>
               <li>
                 <FontAwesomeIcon icon={faHtml5} className="fas" id="fas1" />
+                <FontAwesomeIcon icon={faCss3Alt} className="fas" id="fas1" />
+              </li>
+
+              <li>
+                <FontAwesomeIcon icon={faJsSquare} className="fas" id="fas2" />
               </li>
               <li>
-                <FontAwesomeIcon icon={faCss3Alt} className="fas" id="fas2" />
-              </li>
-              <li>
-                <FontAwesomeIcon icon={faJsSquare} className="fas" id="fas3" />
+                <FontAwesomeIcon icon={faReact} className="fas" id="fas3" />
               </li>
             </ul>
           </div>
@@ -57,9 +58,9 @@ function Skills() {
             <u>Next Study</u>
           </h2>
           <ul id="next-study">
-            <li id="ns1">Next.js</li>
-            <li id="ns2">Node.js</li>
-            <li>Management</li>
+            <li id="ns1">Node.js</li>
+            <li id="ns2">Next.js</li>
+            <li></li>
           </ul>
         </Grid>
       </Grid>
