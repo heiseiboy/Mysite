@@ -30,6 +30,11 @@
   font-family: "Bradley Hand", sans-serif;
 }
 
+.skills a {
+  text-decoration: none;
+  color: black;
+}
+
 ul {
   list-style: none;
 }
@@ -185,7 +190,6 @@ header {
 header a {
   color: #fff;
   text-decoration: none;
-  white-space: nowrap;
 }
 
 header li {
@@ -198,10 +202,12 @@ header nav {
   z-index: 1000;
   top: 3.125rem;
   right: 0;
-  margin: 0;
   text-align: center;
   width: 0%;
+  margin: 0;
   height: 100vh;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 header .open-menu {

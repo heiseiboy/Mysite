@@ -11,6 +11,11 @@
   font-family: "Bradley Hand", sans-serif;
 }
 
+.skills a {
+  text-decoration: none;
+  color: black;
+}
+
 ul {
   list-style: none;
 }

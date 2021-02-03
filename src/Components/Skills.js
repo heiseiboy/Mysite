@@ -21,7 +21,9 @@ function Skills() {
     <div className="container" id="bg4">
       <Grid container>
         <Grid item xs={12}>
-          <p className="skills">Skills</p>
+          <p className="skills">
+            <a>Skills</a>
+          </p>
         </Grid>
 
         <Grid item xs={4} className="info">
